@@ -1,11 +1,10 @@
-package data;
+package app;
 
-import config.PropertyConfig;
-import config.SparkConfig;
+import app.config.PropertyConfig;
 import org.apache.spark.SparkConf;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import service.ExtractService;
+import app.service.ExtractService;
 
 import java.util.Properties;
 
